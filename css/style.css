@@ -1,0 +1,655 @@
+@import url(reset.css);
+body {
+  font-family: "Nunito Sans", sans-serif;
+}
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 24px 16px 24px;
+}
+.header-one {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  opacity: 10px;
+}
+.header-two {
+  display: flex;
+}
+.defeat {
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border-radius: 4px;
+  background: #605dec;
+  padding: 12px 20px;
+}
+.header-three {
+  color: var(#605dec);
+  text-align: center;
+  font-family: Nunito Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 12px 20px;
+  align-items: center;
+}
+.more {
+  color: #605dec;
+  font-size: 92px;
+  font-weight: 800;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.just {
+  margin-top: 98px;
+}
+.user {
+  display: flex;
+  justify-content: center;
+  margin-top: 48px;
+}
+.figma {
+  display: flex;
+  justify-content: space-between;
+}
+.github {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 285px;
+}
+.control {
+  color: #6e7491;
+  font-family: Nunito Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 285px;
+}
+.tidy {
+  color: #605dec;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.mine {
+  color: #a1b0cc;
+  text-align: right;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.money {
+  display: flex;
+}
+.card-1 {
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0px 12px 32px 0px rgba(0, 0, 0, 0.05),
+    0px 2px 4px 0px rgba(28, 5, 77, 0.1);
+}
+.card-2 {
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0px 12px 32px 0px rgba(0, 0, 0, 0.05),
+    0px 2px 4px 0px rgba(28, 5, 77, 0.1);
+}
+.card-3 {
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0px 12px 32px 0px rgba(0, 0, 0, 0.05),
+    0px 2px 4px 0px rgba(28, 5, 77, 0.1);
+}
+.cards {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 24px;
+}
+.display {
+  margin: 40px 60px;
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0px 12px 32px 0px rgba(0, 0, 0, 0.05),
+    0px 2px 4px 0px rgba(28, 5, 77, 0.1);
+}
+.pult {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80px;
+}
+.razvedka {
+  color: #6e7491;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.phone {
+  color: #a1b0cc;
+  text-align: right;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  align-items: center;
+}
+.mishka {
+  background: var(
+    --Turquoise-Gradient,
+    linear-gradient(180deg, #5cd6c0 0%, #22c3a6 100%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.hero {
+  display: flex;
+  gap: 40px;
+}
+.hero-1 {
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0px 12px 32px 0px rgba(0, 0, 0, 0.05),
+    0px 2px 4px 0px rgba(28, 5, 77, 0.1);
+  display: flex;
+  flex-flow: column wrap;
+}
+.hero-2 {
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0px 12px 32px 0px rgba(0, 0, 0, 0.05),
+    0px 2px 4px 0px rgba(28, 5, 77, 0.1);
+  display: flex;
+  flex-flow: column wrap;
+}
+.hero-3 {
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0px 12px 32px 0px rgba(0, 0, 0, 0.05),
+    0px 2px 4px 0px rgba(28, 5, 77, 0.1);
+  display: flex;
+  flex-flow: column wrap;
+}
+.impec {
+  display: flex;
+  justify-content: space-between;
+}
+.insert {
+  display: flex;
+  justify-content: space-between;
+}
+.suppr {
+  display: flex;
+  justify-content: space-between;
+}
+.top {
+  padding: 16px 24px;
+}
+.bottom {
+  padding: 16px 24px;
+}
+.loop {
+  padding: 16px 24px;
+}
+.message {
+  color: #6e7491;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.result {
+  color: #6e7491;
+  text-align: right;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.price {
+  color: #605dec;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.reside {
+  color: #7c8db0;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.prove {
+  color: #6e7491;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.make {
+  color: #605dec;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.proper {
+  color: #6e7491;
+  text-align: right;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.rest {
+  color: #7c8db0;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.sky {
+  color: #6e7491;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.roof {
+  color: #605dec;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.rug {
+  color: #6e7491;
+  text-align: right;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.sand {
+  color: #7c8db0;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.gpt {
+  display: flex;
+  justify-content: space-between;
+}
+.ant {
+  padding: 16px 24px;
+}
+.pond {
+  color: #6e7491;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.pie {
+  color: #605dec;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.past {
+  color: #6e7491;
+  text-align: right;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.paint {
+  color: #7c8db0;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.metoo {
+  padding: 16px 20px;
+}
+.call {
+  color: #6e7491;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.internet {
+  color: #7c8db0;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.glasses {
+  padding: 16px 20px;
+}
+.wifi {
+  color: #6e7491;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.wise {
+  color: #7c8db0;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.you-tube {
+  padding: 16px 20px;
+}
+.live {
+  color: #6e7491;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.telegraph {
+  color: #7c8db0;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.new {
+  background: var(
+    --Turquoise-Gradient,
+    linear-gradient(180deg, #5cd6c0 0%, #22c3a6 100%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.lord {
+  background: var(
+    --Turquoise-Gradient,
+    linear-gradient(180deg, #5cd6c0 0%, #22c3a6 100%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.outline {
+  background: var(
+    --Turquoise-Gradient,
+    linear-gradient(180deg, #5cd6c0 0%, #22c3a6 100%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.kokand {
+  border-radius: 4px;
+  background: var(--Purple-Blue, #605dec);
+  display: flex;
+  height: 48px;
+  padding: 12px 20px;
+  align-items: center;
+  gap: 8px;
+  color: white;
+}
+.serious {
+  color: #fff;
+}
+.asia {
+  border-radius: 4px;
+  background: #605dec;
+  display: flex;
+  height: 48px;
+  padding: 12px 20px;
+  align-items: center;
+  gap: 8px;
+  color: #fff;
+}
+.library {
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+}
+.instead {
+  color: #6e7491;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.fly {
+  color: #605dec;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.middle {
+  display: flex;
+  justify-content: center;
+  margin-top: 104px;
+}
+.banner {
+  display: flex;
+  padding: 16px;
+  align-items: flex-start;
+  gap: 16px;
+}
+.book {
+  display: flex;
+  padding: 16px;
+  align-items: flex-start;
+  gap: 16px;
+}
+.exersice {
+  display: flex;
+  padding: 16px;
+  align-items: flex-start;
+  gap: 16px;
+}
+.collector {
+  display: flex;
+  gap: 40px;
+  margin-top: 40px;
+}
+.chen {
+  color: #6e7491;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.april {
+  color: #6e7491;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.star {
+  color: #27273f;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.director {
+  color: #605dec;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.number {
+  color: #6e7491;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.termos {
+  color: #6e7491;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.parda {
+  color: #27273f;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.million {
+  color: #605dec;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.fake {
+  color: #6e7491;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.donkey {
+  color: #6e7491;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.mitc {
+  color: #27273f;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.app {
+  color: #605dec;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.tikan {
+  display: flex;
+  margin-top: 180px;
+  padding: 60px 120px 41px 120px;
+  gap: 63px;
+}
+.enter {
+  display: flex;
+  width: 200px;
+  padding: 16px 16px 16px 0px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  color: #7c8db0;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.community {
+  display: flex;
+  width: 200px;
+  padding: 16px 16px 16px 0px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  color: #7c8db0;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.trust {
+  display: flex;
+  width: 200px;
+  padding: 16px 16px 16px 0px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  color: #7c8db0;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.google {
+  display: flex;
+  width: 200px;
+  padding: 16px 16px 16px 0px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  color: #7c8db0;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.artel {
+  color: #6e7491;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.samsung {
+  display: flex;
+  justify-content: space-between;
+  padding: 29px 120px 16px 120px;
+  border-top: 2px solid grey;
+}
+.shivaki {
+  color: #7c8db0;
+  text-align: right;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
